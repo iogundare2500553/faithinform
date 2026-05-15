@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith in Form | Religious Architecture Blog</title>
+    <meta name="description" content="Exploring the beauty, symbolism, and evolution of religious architecture across cultures and time.">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">Faith in Form</div>
+        <ul class="nav-links">
+            <li><a href="#intro">Meaning</a></li>
+            <li><a href="#types">Types</a></li>
+            <li><a href="#elements">Elements</a></li>
+            <li><a href="#styles">Styles</a></li>
+            <li><a href="#materials">Materials</a></li>
+            <li><a href="#symbolism">Symbolism</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#trends">Modern</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- DYNAMIC HERO SECTION -->
+    <section class="hero" id="home">
+        <!-- Add as many hero slides here as you want -->
+        <div class="hero-slide" style="background-image: url('./assets/hero1.jpg');"></div>
+        <div class="hero-slide" style="background-image: url('./assets/hero2.jpg');"></div>
+        <div class="hero-slide" style="background-image: url('./assets/hero3.jpg');"></div>
+        <!-- Fallback if user hasn't added hero1.jpg yet -->
+        <div class="hero-slide" style="background-image: url('./assets/hero_cathedral.png');"></div>
+
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Faith in Form</h1>
+            <p class="hero-subtitle">Exploring the beauty, symbolism, and evolution of religious architecture across cultures and time.</p>
+        </div>
+    </section>
+
+    <!-- 1. Meaning & Purpose -->
+    <section id="intro" class="bg-alt">
+        <div class="container split-layout">
+            <div class="reveal">
+                <span class="subtitle">Introduction</span>
+                <h2>Religious Architecture: Meaning and Purpose</h2>
+                <p>Religious architecture refers to the design and construction of buildings or spaces used for worship, spiritual practices, and religious activities. These structures are created to reflect the beliefs, traditions, and values of a religion. Examples include churches, mosques, temples, shrines, synagogues, and monasteries.</p>
+                <p><strong>Meaning:</strong> It combines art, culture, spirituality, and function. It is often designed to create a sacred atmosphere that encourages prayer, meditation, worship, and connection with the divine.</p>
+                
+                <h3>Purpose of Religious Architecture</h3>
+                <img src="./assets/intro-purpose.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                <ul>
+                    <li><strong>Place of Worship:</strong> Provides a dedicated space where people gather for prayers, rituals, and ceremonies.</li>
+                    <li><strong>Spiritual Connection:</strong> Helps worshippers feel closer to God or the spiritual world through silence, light, scale, and symbolism.</li>
+                    <li><strong>Expression of Beliefs:</strong> Architectural elements communicate teachings, traditions, and values of a religion.</li>
+                    <li><strong>Community Gathering:</strong> Centers for social interaction, education, charity, and cultural activities.</li>
+                    <li><strong>Preservation:</strong> Preserves religious history, art, and cultural identity across generations.</li>
+                    <li><strong>Symbolism and Identity:</strong> Structures often become landmarks that represent faith and identity within a community.</li>
+                </ul>
+            </div>
+            <div class="image-wrapper reveal" style="transition-delay: 0.2s;">
+                <img src="./assets/st_peters.png" alt="St. Peter's Basilica Interior">
+                <p style="font-size: 0.8rem; text-align: center; margin-top: 10px;">St. Peter's Basilica — A prime example of Christian architecture</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Types -->
+    <section id="types">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="subtitle">Typologies</span>
+                <h2>Overview of Common Types</h2>
+                <p>Across different cultures and religions, these structures reflect beliefs, traditions, history, and artistic expression. Religious buildings are often designed to create a sense of peace, sacredness, and connection between humans and the divine.</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card bg-alt reveal">
+                    <img src="./assets/type-christian.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>1. Christian Architecture</h3>
+                    <p>Christian religious architecture mainly includes churches, cathedrals, chapels, and basilicas. Early Christian buildings were influenced by Roman architecture, especially the basilica style.</p>
+                    <ul>
+                        <li>Tall spires and towers</li>
+                        <li>Stained glass windows</li>
+                        <li>Cross-shaped floor plans</li>
+                        <li>Domes and vaulted ceilings</li>
+                    </ul>
+                </div>
+                <div class="card bg-alt reveal" style="transition-delay: 0.1s;">
+                    <img src="./assets/type-islamic.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>2. Islamic Architecture</h3>
+                    <p>Islamic architecture is seen in mosques, madrasas, tombs, and palaces. It emphasizes geometry, symmetry, and decorative patterns.</p>
+                    <ul>
+                        <li>Large domes & Minarets</li>
+                        <li>Arches and courtyards</li>
+                        <li>Calligraphy and geometric decoration</li>
+                        <li>Prayer halls facing Mecca</li>
+                    </ul>
+                </div>
+                <div class="card bg-alt reveal" style="transition-delay: 0.2s;">
+                    <img src="./assets/type-hindu.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>3. Hindu Architecture</h3>
+                    <p>Hindu religious architecture is mainly represented by temples designed according to sacred geometry.</p>
+                    <ul>
+                        <li>Towers called shikharas</li>
+                        <li>Intricate carvings of gods</li>
+                        <li>Mandapas (pillared halls)</li>
+                        <li>Sacred inner sanctuary (garbhagriha)</li>
+                    </ul>
+                </div>
+                <div class="card bg-alt reveal">
+                    <img src="./assets/type-buddhist.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>4. Buddhist Architecture</h3>
+                    <p>Buddhist architecture includes temples, monasteries, stupas, and pagodas designed to support meditation.</p>
+                    <ul>
+                        <li>Pagodas and stupas</li>
+                        <li>Curved roofs & Meditation halls</li>
+                        <li>Peaceful natural surroundings</li>
+                    </ul>
+                </div>
+                <div class="card bg-alt reveal" style="transition-delay: 0.1s;">
+                    <img src="./assets/type-jewish.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>5. Jewish Architecture</h3>
+                    <p>Jewish religious architecture is centered around synagogues, serving as places of worship and community gatherings.</p>
+                    <ul>
+                        <li>Torah ark (Ark of the Covenant)</li>
+                        <li>Menorah symbolism</li>
+                        <li>Central prayer space</li>
+                        <li>Decorative Hebrew inscriptions</li>
+                    </ul>
+                </div>
+                <div class="card bg-alt reveal" style="transition-delay: 0.2s;">
+                    <img src="./assets/type-indigenous.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>6. Indigenous Architecture</h3>
+                    <p>Many indigenous cultures have sacred spaces connected closely to nature and ancestral traditions.</p>
+                    <ul>
+                        <li>Use of natural materials</li>
+                        <li>Symbolic carvings and patterns</li>
+                        <li>Strong connection to the environment</li>
+                        <li>Spaces for rituals and ceremonies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Key Elements -->
+    <section id="elements" class="bg-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="subtitle">Anatomy of Space</span>
+                <h2>Key Architectural Elements</h2>
+                <p>Religious architecture is distinguished by a collection of design elements that help create spaces for worship, reflection, and spiritual connection.</p>
+            </div>
+            <div class="grid-3">
+                <div class="reveal">
+                    <img src="./assets/element-orientation.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>1. Sacred Orientation</h4>
+                    <p>Churches are often oriented eastward to symbolize resurrection, while mosques are aligned toward Mecca through the qibla wall.</p>
+                </div>
+                <div class="reveal">
+                    <img src="./assets/element-entrances.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>2. Entrances & Transitional Spaces</h4>
+                    <p>Courtyards, gateways, and vestibules prepare worshippers mentally and spiritually before entering.</p>
+                </div>
+                <div class="reveal">
+                    <img src="./assets/element-domes.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>3. Domes, Spires, and Towers</h4>
+                    <p>Domes often represent the sky or the universe, while tall towers draw the eyes upward, emphasizing divine presence.</p>
+                </div>
+                <div class="reveal">
+                    <img src="./assets/element-space.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>4. Central Worship Space</h4>
+                    <p>The main prayer hall is the heart of religious architecture. Its size and layout encourage unity and focus.</p>
+                </div>
+                <div class="reveal">
+                    <img src="./assets/element-light.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>5. Light and Ventilation</h4>
+                    <p>Stained glass windows, open courtyards, and positioned openings create dramatic lighting effects that inspire peace.</p>
+                </div>
+                <div class="reveal">
+                    <img src="./assets/element-decoration.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>6. Symbolic Decoration</h4>
+                    <p>Carvings, murals, sculptures, calligraphy, and mosaics communicate spiritual teachings and cultural identity.</p>
+                </div>
+                <div class="reveal">
+                    <img src="./assets/element-acoustics.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>7. Acoustics and Sound</h4>
+                    <p>Buildings are designed to enhance acoustics, allowing voices, chanting, and music to resonate clearly.</p>
+                </div>
+                <div class="reveal">
+                    <img src="./assets/element-materials.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>8. Use of Sacred Materials</h4>
+                    <p>Materials like stone, marble, timber, and gold are chosen for their symbolic meaning, durability, and beauty.</p>
+                </div>
+                <div class="reveal">
+                    <img src="./assets/element-courtyards.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>9. Open Spaces & Courtyards</h4>
+                    <p>Courtyards and gardens provide spaces for gathering and reflection while improving environmental comfort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Styles -->
+    <section id="styles">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="subtitle">Historical & Global</span>
+                <h2>Styles of Religious Architecture</h2>
+                <p>Each style of religious architecture reflects the beliefs, technology, climate, and artistic traditions of the people who created it.</p>
+            </div>
+            
+            <div class="grid-2">
+                <div class="card reveal">
+                    <img src="./assets/style-gothic.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>Gothic Architecture</h3>
+                    <p>Developed in Europe during the middle ages. Characterized by very tall structures, pointed arches, ribbed vaults, flying buttresses, and large stained-glass windows aimed at creating a spiritual atmosphere.</p>
+                </div>
+                <div class="card reveal">
+                    <img src="./assets/style-romanesque.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>Romanesque Architecture</h3>
+                    <p>Characterized by thick stone walls (symbolizes strength, protection and permanence), rounded arches, small windows, heavy appearance, barrel vaults, massive towers.</p>
+                </div>
+                <div class="card reveal">
+                    <img src="./assets/style-islamic.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>Islamic Architecture</h3>
+                    <p>Characterized by domes, minarets, courtyards, geometric patterns (symbolizes infinity), calligraphy, arches and mosaics. Emphasizes unity, order and the greatness of God.</p>
+                </div>
+                <div class="card reveal">
+                    <img src="./assets/style-asian.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h3>Hindu & Buddhist Architecture</h3>
+                    <p><strong>Hindu:</strong> Intricate carvings, pyramid-like towers called shikharas, mandapas, symmetrical layouts.</p>
+                    <p><strong>Buddhist:</strong> Focuses on meditation. Characterized by pagodas, stupas (path to enlightenment), curved roofs, natural surroundings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Materials -->
+    <section id="materials" class="bg-alt">
+        <div class="container split-layout reverse">
+            <div class="reveal">
+                <span class="subtitle">Construction</span>
+                <h2>Materials in Religious Architecture</h2>
+                <p>Religious buildings reflect faith through careful material selection, ensuring strength, beauty, and spiritual significance. Different materials are used depending on local availability and beliefs.</p>
+                
+                <h4>Stone & Marble</h4>
+                <img src="./assets/material-stone.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                <p>Stone has been used for centuries for its strength and durability, symbolizing permanence. Marble is valued for its smooth surface and beauty, as seen in the Taj Mahal.</p>
+                
+                <h4>Wood</h4>
+                <img src="./assets/material-wood.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                <p>Wood is easy to carve and provides a warm, natural appearance. It's heavily used in Japanese temples like Horyu-ji and Scandinavian Stave churches.</p>
+                
+                <h4>Mud and Clay</h4>
+                <img src="./assets/material-mud.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                <p>Common in hot climates, mud provides excellent insulation. The Great Mosque of Djenné is the largest mud-built structure in the world.</p>
+                
+                <h4>Concrete, Metal & Glass</h4>
+                <img src="./assets/material-glass.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                <p>Concrete allows for large, unique buildings. Metal reinforces structures and beautifies them. Stained glass allows natural light to enter, creating a spiritual atmosphere while telling stories.</p>
+            </div>
+            <div class="image-wrapper reveal">
+                <img src="./assets/texture_arch.png" alt="Architectural Materials" style="margin-bottom: 1rem; border-radius: 4px;">
+                <img src="./assets/taj_mahal.jpg" alt="Taj Mahal" style="border-radius: 4px; width: 100%; object-fit: cover;">
+                <p style="font-size: 0.8rem; text-align: center; margin-top: 10px;">The pristine white marble of the Taj Mahal</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Symbolism -->
+    <section id="symbolism">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="subtitle">Hidden Meanings</span>
+                <h2>Key Symbolic Elements</h2>
+            </div>
+            
+            <div class="grid-2">
+                <div class="card bg-alt reveal">
+                    <img src="./assets/symbol-geometry.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>1. Sacred Geometry</h4>
+                    <p>Many buildings incorporate geometric shapes holding spiritual significance. Circles symbolize eternity, squares represent stability, and triangles represent divinity. Very prevalent in Islamic architecture.</p>
+                </div>
+                <div class="card bg-alt reveal">
+                    <img src="./assets/symbol-orientation.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>2. Orientation and Layout</h4>
+                    <p>The orientation often has symbolic meaning. The Islamic mihrab guides worshippers to Mecca, while the Christian altar positioned at the eastern end symbolizes the resurrection of Christ.</p>
+                </div>
+                <div class="card bg-alt reveal">
+                    <img src="./assets/symbol-iconography.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>3. Iconography</h4>
+                    <p>Architecture features iconography conveying theology. The cross symbolizes redemption, while the Lotus flower in Hindu temples represents purity and spiritual awakening.</p>
+                </div>
+                <div class="card bg-alt reveal">
+                    <img src="./assets/symbol-colours.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <h4>4. Materials and Colours</h4>
+                    <p>Gold is used in Christian Cathedrals to signify divinity and glory, while white marble in Hindu temples represents purity and peace.</p>
+                </div>
+            </div>
+
+            <div class="callout reveal">
+                <div class="split-layout">
+                    <div>
+                        <h3>Examples of Symbolism in Real Life</h3>
+                        <ul style="color: rgba(255,255,255,0.9); margin-top: 1rem;">
+                            <li><strong>The Parthenon:</strong> Exemplifies the use of symmetry and proportion, reflecting ideals of beauty and harmony in Greek culture.</li>
+                            <li><strong>St. Peter’s Basilica:</strong> Incorporates elements symbolizing the Catholic faith, such as the dome (heaven) and light/gold (divine presence).</li>
+                            <li><strong>Great Mosque of Cordoba:</strong> Showcases a blend of Islamic, Christian, and Roman influences, symbolizing historical interplay of cultures.</li>
+                        </ul>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="./assets/parthenon.png" alt="The Parthenon" style="max-height: 250px; width: 100%; object-fit: cover; border-radius: 4px; margin-bottom: 1rem;">
+                        <img src="./assets/cordoba.jpg" alt="Great Mosque of Cordoba" style="max-height: 250px; width: 100%; object-fit: cover; border-radius: 4px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Cultural & Social Importance -->
+    <section id="culture" class="bg-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="subtitle">Impact</span>
+                <h2>Cultural and Social Importance</h2>
+            </div>
+
+            <div class="grid-2">
+                <div class="reveal">
+                    <h3 style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">Cultural Importance</h3>
+                    
+                    <h4>Identity and Heritage</h4>
+                    <img src="./assets/culture-identity.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <p>Religious buildings turn invisible beliefs into solid stone. They stand for centuries, connecting communities with ancestors and serving as world symbols.</p>
+                    
+                    <h4>Artistic Expression</h4>
+                    <img src="./assets/culture-art.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <p>These structures function as giant art museums holding paintings, tile designs, and carvings, saving historic skills.</p>
+                    
+                    <h4>Storytelling and Continuity</h4>
+                    <img src="./assets/culture-storytelling.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <p>Before mass literacy, buildings acted as giant picture books teaching history.</p>
+                    
+                    <h4>Urban Landscape</h4>
+                    <img src="./assets/culture-landscape.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <p>Historically built as town centers, their high towers helped travelers find their way. The open courtyards serve as public meeting places.</p>
+                </div>
+
+                <div class="reveal">
+                    <h3 style="border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">Social Importance</h3>
+                    
+                    <h4>Community Cohesion</h4>
+                    <img src="./assets/social-community.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <p>They offer free spaces where all interact as equals. Serving as venues for life events, they build strong teamwork and fight off urban loneliness.</p>
+                    
+                    <h4>Social Services</h4>
+                    <img src="./assets/social-services.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <p>During emergencies, these massive buildings turn into shelters. Many complexes run free schools, clinics, and charities to help the poor.</p>
+                    
+                    <h4>Psychological Well-being</h4>
+                    <img src="./assets/social-wellbeing.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <p>Architectural design creates quiet places that block out stressful city noise, providing immense comfort during trauma or grief.</p>
+                    
+                    <h4>Symbol of Equality</h4>
+                    <img src="./assets/social-equality.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                    <p>Inside, open floors erase social classes. Circular seating and entry rules (removing shoes) make everyone equal by stripping away outside status symbols.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Modern Trends -->
+    <section id="trends">
+        <div class="container split-layout">
+            <div class="reveal">
+                <span class="subtitle">Contemporary Architecture</span>
+                <h2>Modern Trends in Religious Architecture</h2>
+                <p>Contemporary religious architecture has continued to evolve. Unlike traditional buildings that focused on ornamentation, modern worship spaces emphasize simplicity, functionality, and community engagement.</p>
+                
+                <h4>Simplicity & Minimalism</h4>
+                <img src="./assets/trend-minimalism.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                <p>Designed with clean lines, open spaces, and less decorative complexity. This simplicity helps create calm and reflective environments, allowing focus on spirituality rather than ornamentation.</p>
+                
+                <h4>Modern Materials & Scale</h4>
+                <img src="./assets/trend-scale.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                <p>Glass, steel, and reinforced concrete provide flexibility, making it possible to construct massive auditoriums for thousands. Glass introduces bright natural lighting, while steel allows for wide-span roofs.</p>
+                
+                <h4>Sustainability</h4>
+                <img src="./assets/trend-sustainability.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                <p>Modern spaces emphasize environmental harmony through energy-efficient lighting, ventilation, and eco-friendly construction, integrating nature into the design.</p>
+                
+                <h4>Multi-purpose Community Spaces</h4>
+                <img src="./assets/trend-community.jpg" class="inline-img" alt="" onerror="this.style.display='none'">
+                <p>Centers today often include schools, libraries, hospitals, and recreational facilities, reflecting expanding roles in social development.</p>
+                
+                <p><strong>Examples:</strong> <em>Canaanland</em> (Faith Tabernacle) and <em>The Glory Dome</em> demonstrate modern massive scale, advanced engineering, and community-centered planning, proving how architecture evolves to meet modern societal needs.</p>
+            </div>
+            <div class="image-wrapper reveal" style="transition-delay: 0.2s;">
+                <img src="./assets/canaanland.jpg" alt="Canaanland / Glory Dome" style="border-radius: 4px; width: 100%; object-fit: cover; margin-bottom: 1rem;">
+                <img src="./assets/modern_minimalist_temple.png" alt="Modern Minimalist Architecture">
+                <p style="font-size: 0.8rem; text-align: center; margin-top: 10px;">Modern massive-scale religious architecture</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Team / Group Members -->
+    <section id="team" class="bg-alt">
+        <div class="container">
+            <div class="section-header reveal" style="margin-bottom: 2rem;">
+                <span class="subtitle">The Team</span>
+                <h2>Group Members</h2>
+                <p>This project was collaboratively researched and designed by:</p>
+            </div>
+            
+            <div class="reveal" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+                    <li style="background: var(--bg-main); padding: 10px 20px; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">Oluwanifemi Ogundare</li>
+                    <li style="background: var(--bg-main); padding: 10px 20px; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">Jemima Owoyele</li>
+                    <li style="background: var(--bg-main); padding: 10px 20px; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">Ololade Olawuyi</li>
+                    <li style="background: var(--bg-main); padding: 10px 20px; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">Oghenetejiri Ejiro Abrahams</li>
+                    <li style="background: var(--bg-main); padding: 10px 20px; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">Adejoke Shitu</li>
+                    <li style="background: var(--bg-main); padding: 10px 20px; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">Lan Paul Tertsea</li>
+                    <li style="background: var(--bg-main); padding: 10px 20px; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">Morola Adenekan</li>
+                    <li style="background: var(--bg-main); padding: 10px 20px; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid var(--border-color);">Stephanie Echem</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Faith in Form. All Rights Reserved.</p>
+        <p style="margin-top: 10px; font-size: 0.8rem; color: rgba(255,255,255,0.5);">A comprehensive visual and textual exploration of religious architecture.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
